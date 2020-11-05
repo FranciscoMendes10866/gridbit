@@ -14,12 +14,7 @@
                 Linear helps streamline software projects, sprints, tasks, and
                 bug tracking. It's built for high-performance teams.
               </p>
-              <vs-button
-                class="reset mt-6"
-                size="large"
-                color="#543fd7"
-                floating
-              >
+              <vs-button class="reset mt-6" size="large" danger floating>
                 <i class="bx bxs-down-arrow"></i>
                 &nbsp;Learn more</vs-button
               >
@@ -152,12 +147,7 @@
               <p class="has-text-grey is-size-5 mt-5">
                 I hope you understand why you should use GridBit.
               </p>
-              <vs-button
-                class="reset mt-6"
-                size="large"
-                color="#543fd7"
-                floating
-              >
+              <vs-button class="reset mt-6" size="large" danger floating>
                 <i class="bx bxs-up-arrow"></i>
                 &nbsp;Back To Top</vs-button
               >
@@ -184,7 +174,7 @@ export default {
   margin: auto;
 }
 .intro {
-  color: #543fd7;
+  color: #f2135d;
 }
 .bg {
   background: #1c1d1f;

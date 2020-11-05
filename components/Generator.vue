@@ -15,30 +15,22 @@
                   <div class="level">
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" color="#5e6ad2"
-                          >ABC</vs-switch
-                        >
+                        <vs-switch square val="css" danger>ABC</vs-switch>
                       </div>
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" color="#5e6ad2"
-                          >abc</vs-switch
-                        >
+                        <vs-switch square val="css" danger>abc</vs-switch>
                       </div>
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" color="#5e6ad2"
-                          >123</vs-switch
-                        >
+                        <vs-switch square val="css" danger>123</vs-switch>
                       </div>
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" color="#5e6ad2"
-                          >#$&</vs-switch
-                        >
+                        <vs-switch square val="css" danger>#$&</vs-switch>
                       </div>
                     </div>
                   </div>
@@ -46,7 +38,7 @@
                     <div class="level-item has-text-centered">
                       <div>
                         <vs-button
-                          color="#543fd7"
+                          danger
                           style="min-width: 60px"
                           animation-type="scale"
                         >
@@ -57,12 +49,7 @@
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-button
-                          icon
-                          circle
-                          color="#543fd7"
-                          animation-type="rotate"
-                        >
+                        <vs-button icon circle danger animation-type="rotate">
                           <i class="bx bx-refresh"></i>
                           <template #animate>
                             <i class="bx bx-refresh"></i>

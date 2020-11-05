@@ -111,14 +111,14 @@
         </div>
       </div>
     </section>
-    <!-- Fragility section -->
+    <!-- Robust section -->
     <section class="hero bg py-6">
       <div class="hero-body">
         <div class="container">
           <div class="columns">
             <div class="column is-5">
               <h1 class="is-size-1 has-text-white has-text-weight-semibold">
-                Fragility.
+                Robust.
               </h1>
               <p class="has-text-grey-light is-size-5 mt-5">
                 Remember, short passwords are weak passwords. They’re too easily
@@ -150,7 +150,7 @@
                 Have you got it?
               </h1>
               <p class="has-text-grey is-size-5 mt-5">
-                I hope you already understand why using GridBit.
+                I hope you understand why you should use GridBit.
               </p>
               <vs-button
                 class="reset mt-6"

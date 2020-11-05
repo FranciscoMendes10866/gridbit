@@ -15,22 +15,22 @@
                   <div class="level">
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" danger>ABC</vs-switch>
+                        <vs-switch square val="css" primary>ABC</vs-switch>
                       </div>
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" danger>abc</vs-switch>
+                        <vs-switch square val="css" primary>abc</vs-switch>
                       </div>
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" danger>123</vs-switch>
+                        <vs-switch square val="css" primary>123</vs-switch>
                       </div>
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-switch square val="css" danger>#$&</vs-switch>
+                        <vs-switch square val="css" primary>#$&</vs-switch>
                       </div>
                     </div>
                   </div>
@@ -38,7 +38,7 @@
                     <div class="level-item has-text-centered">
                       <div>
                         <vs-button
-                          danger
+                          primary
                           style="min-width: 60px"
                           animation-type="scale"
                         >
@@ -49,7 +49,7 @@
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-button icon circle danger animation-type="rotate">
+                        <vs-button icon circle primary animation-type="rotate">
                           <i class="bx bx-refresh"></i>
                           <template #animate>
                             <i class="bx bx-refresh"></i>

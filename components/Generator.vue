@@ -132,6 +132,8 @@ export default {
       this.$copyText(this.randomPassword).then(
         () => {
           this.$vs.notification({
+            duration: '4000',
+            progress: 'auto',
             icon: '<i class="bx bxs-copy"></i>',
             color: 'primary',
             position: 'top-center',
@@ -141,6 +143,8 @@ export default {
         },
         () => {
           this.$vs.notification({
+            duration: '4000',
+            progress: 'auto',
             icon: '<i class="bx bxs-error"></i>',
             color: 'danger',
             position: 'top-center',

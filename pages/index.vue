@@ -11,8 +11,8 @@
                 Random Password Generator
               </h1>
               <p class="mt-4 has-text-grey-light is-size-4">
-                Linear helps streamline software projects, sprints, tasks, and
-                bug tracking. It's built for high-performance teams.
+                Generate strong, random, and unique passwords with the click of
+                a button. Make your online presence a little bit safer.
               </p>
               <vs-button class="reset mt-6" size="large" primary floating>
                 <i class="bx bxs-down-arrow"></i>
@@ -174,7 +174,7 @@ export default {
   margin: auto;
 }
 .intro {
-  color: rgb(0, 60, 255);
+  color: rgb(60, 106, 255);
 }
 .bg {
   background: #1c1d1f;

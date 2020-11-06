@@ -10,27 +10,23 @@
                   <h5
                     class="has-text-grey-light is-size-3 has-text-weight-light"
                   >
-                    FwPY29RzAsGUo01B
+                    {{ generatedPassword }}
                   </h5>
                   <div class="level">
-                    <div class="level-item has-text-centered">
+                    <div
+                      v-for="(option, index) in optiondata"
+                      :key="index"
+                      class="level-item has-text-centered"
+                    >
                       <div>
-                        <vs-switch square val="css" primary>ABC</vs-switch>
-                      </div>
-                    </div>
-                    <div class="level-item has-text-centered">
-                      <div>
-                        <vs-switch square val="css" primary>abc</vs-switch>
-                      </div>
-                    </div>
-                    <div class="level-item has-text-centered">
-                      <div>
-                        <vs-switch square val="css" primary>123</vs-switch>
-                      </div>
-                    </div>
-                    <div class="level-item has-text-centered">
-                      <div>
-                        <vs-switch square val="css" primary>#$&</vs-switch>
+                        <vs-switch
+                          v-model="option.status"
+                          square
+                          val="css"
+                          primary
+                        >
+                          {{ option.name }}
+                        </vs-switch>
                       </div>
                     </div>
                   </div>
@@ -41,6 +37,7 @@
                           primary
                           style="min-width: 60px"
                           animation-type="scale"
+                          @click="Selected"
                         >
                           <i class="bx bxs-copy"></i>
                           <template #animate>Copy</template>
@@ -49,7 +46,13 @@
                     </div>
                     <div class="level-item has-text-centered">
                       <div>
-                        <vs-button icon circle primary animation-type="rotate">
+                        <vs-button
+                          icon
+                          circle
+                          primary
+                          animation-type="rotate"
+                          @click="refreshPassword = !refreshPassword"
+                        >
                           <i class="bx bx-refresh"></i>
                           <template #animate>
                             <i class="bx bx-refresh"></i>
@@ -69,5 +72,84 @@
 </template>
 
 <script>
-export default {}
+/* eslint-disable */
+export default {
+  data: () => ({
+    refreshPassword: false,
+    randomPassword: null,
+    optiondata: [
+      {
+        name: 'ABC',
+        status: true,
+        chars: 'ABCDEFGHJKLMNOPQRSTUVWXYZ',
+      },
+      {
+        name: 'abc',
+        status: true,
+        chars: 'abcdefghjkmnopqrstuvwxyz',
+      },
+      {
+        name: '123',
+        status: true,
+        chars: '0123456789',
+      },
+      {
+        name: '%&?',
+        status: false,
+        chars: '!$%&?+*#-/',
+      },
+    ],
+  }),
+  computed: {
+    charset() {
+      return [...this.optiondata]
+        .map((element) => {
+          if (element.status === true) return element.chars
+        })
+        .join('')
+    },
+    generatedPassword() {
+      if (process.client) {
+        this.refreshPassword
+        const passwordLength = Math.floor(Math.random() * 1) + 24  
+        return [
+          ...window.crypto.getRandomValues(
+            new Uint32Array(passwordLength)
+          ),
+        ]
+          .map((value) => this.charset[value % this.charset.length])
+          .join('')
+      }
+    },
+  },
+  watch: {
+    generatedPassword(newValue) {
+      this.randomPassword = newValue
+    }
+  },
+  methods: {
+    Selected() {
+      this.$copyText(this.randomPassword).then(
+        () => {
+          this.$vs.notification({
+            icon: '<i class="bx bxs-copy"></i>',
+            color: 'primary',
+            position: 'top-center',
+            title: 'Copied successfully.',
+            text: `Keep your password in a safe place.`
+          })
+        },
+        () => {
+          this.$vs.notification({
+            icon: '<i class="bx bxs-error"></i>',
+            color: 'danger',
+            position: 'top-center',
+            title: 'An error has occurred.',
+            text: `Try to generate a new password.`
+          })
+        }
+      )
+    },
+  },
+}
 </script>

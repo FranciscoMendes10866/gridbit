@@ -23,7 +23,7 @@ export default {
   css: ['vuesax/dist/vuesax.css', '@/assets/bulma.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['@/plugins/vuesax'],
+  plugins: ['@/plugins/vuesax', '@/plugins/clipboard'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,

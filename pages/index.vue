@@ -29,7 +29,7 @@
     <section class="hero has-background-black-bis py-6">
       <div class="hero-body">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-justify-content-space-around">
             <div class="column is-5">
               <h1 class="is-size-1 has-text-white has-text-weight-semibold">
                 Safety.
@@ -48,6 +48,12 @@
                 your computer.
               </p>
             </div>
+            <div class="column is-5">
+              <img
+                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604779921/gridbit/robots_kocs7h.png"
+                alt
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -56,7 +62,7 @@
     <section class="hero bg py-6">
       <div class="hero-body">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-justify-content-space-around">
             <div class="column is-5">
               <h1 class="is-size-1 has-text-white has-text-weight-semibold">
                 Randomness.
@@ -76,6 +82,12 @@
                 crack.
               </p>
             </div>
+            <div class="column is-5">
+              <img
+                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604779732/gridbit/objects_a7ahy4.png"
+                alt
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -84,7 +96,7 @@
     <section class="hero has-background-black-bis py-6">
       <div class="hero-body">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-justify-content-space-around">
             <div class="column is-5">
               <h1 class="is-size-1 has-text-white has-text-weight-semibold">
                 Singularity.
@@ -102,6 +114,12 @@
                 every account.
               </p>
             </div>
+            <div class="column is-5">
+              <img
+                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604780021/gridbit/humans_rqcdh7.png"
+                alt
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -110,7 +128,7 @@
     <section class="hero bg py-6">
       <div class="hero-body">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-justify-content-space-around">
             <div class="column is-5">
               <h1 class="is-size-1 has-text-white has-text-weight-semibold">
                 Robust.
@@ -130,6 +148,12 @@
               <p class="has-text-grey-light is-size-5 mt-5">
                 Only then will you have a strong password.
               </p>
+            </div>
+            <div class="column is-5">
+              <img
+                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604780629/gridbit/Group_1_l0xvdw.png"
+                alt
+              />
             </div>
           </div>
         </div>

@@ -64,6 +64,12 @@
         <div class="container">
           <div class="columns is-justify-content-space-around">
             <div class="column is-5">
+              <img
+                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604779732/gridbit/objects_a7ahy4.png"
+                alt
+              />
+            </div>
+            <div class="column is-5">
               <h1 class="is-size-1 has-text-white has-text-weight-semibold">
                 Randomness.
               </h1>
@@ -81,12 +87,6 @@
                 truly random passwords that even the strongest computers can’t
                 crack.
               </p>
-            </div>
-            <div class="column is-5">
-              <img
-                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604779732/gridbit/objects_a7ahy4.png"
-                alt
-              />
             </div>
           </div>
         </div>
@@ -130,6 +130,12 @@
         <div class="container">
           <div class="columns is-justify-content-space-around">
             <div class="column is-5">
+              <img
+                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604780629/gridbit/Group_1_l0xvdw.png"
+                alt
+              />
+            </div>
+            <div class="column is-5">
               <h1 class="is-size-1 has-text-white has-text-weight-semibold">
                 Robust.
               </h1>
@@ -148,12 +154,6 @@
               <p class="has-text-grey-light is-size-5 mt-5">
                 Only then will you have a strong password.
               </p>
-            </div>
-            <div class="column is-5">
-              <img
-                src="https://res.cloudinary.com/dj5iihhqv/image/upload/v1604780629/gridbit/Group_1_l0xvdw.png"
-                alt
-              />
             </div>
           </div>
         </div>

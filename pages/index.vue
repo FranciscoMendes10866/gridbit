@@ -3,14 +3,20 @@
     <!-- Hero Landing -->
     <section id="hero-landing" class="hero bg pt-4">
       <div class="hero-body">
-        <div class="container has-text-centered-desktop has-text-left-mobile">
+        <div class="container has-text-centered-tablet has-text-left-mobile">
           <div class="columns is-centered">
-            <div class="column is-12-mobile is-12-tablet is-8-desktop">
-              <h5 class="intro is-size-4">Introducing GridBit</h5>
-              <h1 class="mt-3 has-text-white has-text-weight-bold is-size-1">
+            <div class="column is-12-mobile is-8-desktop">
+              <h5 class="intro is-size-4-tablet is-size-5-mobile">
+                Introducing GridBit
+              </h5>
+              <h1
+                class="mt-3 has-text-white has-text-weight-bold is-size-1-tablet is-size-3-mobile"
+              >
                 Random Password Generator
               </h1>
-              <p class="mt-4 has-text-grey-light is-size-4">
+              <p
+                class="mt-4 has-text-grey-light is-size-4-tablet is-size-5-mobile"
+              >
                 Generate strong, random, and unique passwords with the click of
                 a button. Make your online presence a little bit safer.
               </p>
@@ -171,7 +177,9 @@
         <div class="container">
           <div class="columns is-centered has-text-centered">
             <div class="column is-8">
-              <h1 class="is-size-1 has-text-white has-text-weight-semibold">
+              <h1
+                class="is-size-1-tablet is-size-3-mobile has-text-white has-text-weight-semibold"
+              >
                 Have you got it?
               </h1>
               <p class="has-text-grey is-size-5 mt-5">

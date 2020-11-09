@@ -3,12 +3,12 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <div class="columns is-centered">
-          <div class="column is-6">
+          <div class="column is-6-tablet">
             <div class="card bg-card">
               <div class="card-content">
                 <div class="content">
                   <h5
-                    class="has-text-grey-light is-size-3 has-text-weight-light"
+                    class="has-text-grey-light is-size-3-desktop is-size-4-tablet is-size-5-mobile has-text-weight-light"
                   >
                     {{ generatedPassword }}
                   </h5>

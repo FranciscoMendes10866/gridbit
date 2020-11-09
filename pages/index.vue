@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Landing -->
-    <section class="hero bg pt-6">
+    <section id="hero-landing" class="hero bg pt-4">
       <div class="hero-body">
         <div class="container has-text-centered-desktop has-text-left-mobile">
           <div class="columns is-centered">
@@ -14,7 +14,13 @@
                 Generate strong, random, and unique passwords with the click of
                 a button. Make your online presence a little bit safer.
               </p>
-              <vs-button class="reset mt-6" size="large" primary floating>
+              <vs-button
+                href="#learning"
+                class="reset mt-6"
+                size="large"
+                primary
+                floating
+              >
                 <i class="bx bxs-down-arrow"></i>
                 &nbsp;Learn more</vs-button
               >
@@ -26,7 +32,7 @@
     <!-- Generator -->
     <Generator />
     <!-- Safety section -->
-    <section class="hero has-background-black-bis py-6">
+    <section id="learning" class="hero has-background-black-bis py-6">
       <div class="hero-body">
         <div class="container">
           <div class="columns is-justify-content-space-around">
@@ -171,7 +177,13 @@
               <p class="has-text-grey is-size-5 mt-5">
                 I hope you understand why you should use GridBit.
               </p>
-              <vs-button class="reset mt-6" size="large" primary floating>
+              <vs-button
+                href="#hero-landing"
+                class="reset mt-6"
+                size="large"
+                primary
+                floating
+              >
                 <i class="bx bxs-up-arrow"></i>
                 &nbsp;Back To Top</vs-button
               >

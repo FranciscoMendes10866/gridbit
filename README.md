@@ -1,6 +1,6 @@
 # GridBit
 
-GridBit is a completely free and open source random password generator made in Nuxt.js
+GridBit is a completely free and open source random password generator built with [Nuxt.js](https://nuxtjs.org/), [Bulma](https://bulma.io/) and [Vuesax](https://vuesax.com/).
 
 ## Installation
 

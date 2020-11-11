@@ -1,20 +1,23 @@
-# gridbit
+# GridBit
 
-## Build Setup
+GridBit is a completely free and open source random password generator made in Nuxt.js
+
+## Installation
+
+Install the project dependencies.
 
 ```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+yarn install
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Run the development command.
+
+```bash
+yarn dev
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

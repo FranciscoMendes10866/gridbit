@@ -16,6 +16,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'
+      },
     ],
   },
 
